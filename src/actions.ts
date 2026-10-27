@@ -1,4 +1,14 @@
-module.exports = function (self) {
+import type ModuleInstance from './main.js'
+
+export type ActionsSchema = {
+	sample_action: {
+		options: {
+			num: number
+		}
+	}
+}
+
+export function UpdateActions(self: ModuleInstance): void {
 	self.setActionDefinitions({
 		sample_action: {
 			name: 'My First Action',

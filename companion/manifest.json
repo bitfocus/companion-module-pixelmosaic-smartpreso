@@ -1,28 +1,29 @@
 {
 	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
 	"type": "connection",
-	"id": "your-module-name",
-	"name": "your-module-name",
-	"shortname": "module-shortname",
-	"description": "A short one line description of your module",
+	"id": "pixelmosaic-smartpreso",
+	"name": "Smart Preso",
+	"shortname": "smartpreso",
+	"description": "External control for Smart Preso systems",
 	"version": "0.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-your-module-name.git",
-	"bugs": "https://github.com/bitfocus/companion-module-your-module-name/issues",
+	"repository": "git+https://github.com/bitfocus/companion-module-pixelmosaic-smartpreso.git",
+	"bugs": "https://github.com/bitfocus/companion-module-pixelmosaic-smartpreso/issues",
 	"maintainers": [
 		{
-			"name": "Your name",
-			"email": "Your email"
+			"name": "Justin Myers",
+			"email": "github@pixelmosaic.com",
+			"github": "jsquared90"
 		}
 	],
 	"runtime": {
 		"type": "node26",
 		"api": "nodejs-ipc",
 		"apiVersion": "0.0.0",
-		"entrypoint": "../src/main.js"
+		"entrypoint": "../dist/main.js"
 	},
 	"legacyIds": [],
-	"manufacturer": "Your company",
-	"products": ["Your product"],
+	"manufacturer": "Pixel Mosaic",
+	"products": ["Smart Preso"],
 	"keywords": []
 }

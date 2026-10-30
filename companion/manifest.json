@@ -25,5 +25,5 @@
 	"legacyIds": [],
 	"manufacturer": "Pixel Mosaic",
 	"products": ["Smart Preso"],
-	"keywords": []
+	"keywords": ["presentation", "playback", "media server", "osc", "cue"]
 }

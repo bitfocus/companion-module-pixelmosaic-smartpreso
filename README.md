@@ -1,11 +1,12 @@
-# companion-module-[replace with module name]
+# companion-module-pixelmosaic-smartpreso
 
-See [HELP.md](./companion/HELP.md) and [LICENSE](./LICENSE)
+Bitfocus Companion module for controlling [Smart Preso](https://smartpreso.com) systems over OSC.
 
-## Getting started
+- Command reference: [Smart Preso OSC API Documentation](https://cloud.smartpreso.com/?action=oscDocumentation)
+- User help: see [companion/HELP.md](./companion/HELP.md)
 
-Executing a `yarn` command should perform all necessary steps to develop the module, if it does not then follow the steps below.
+## Development
 
-The module can be built once with `yarn build`. This should be enough to get the module to be loadable by companion.
-
-While developing the module, by using `yarn dev` the compiler will be run in watch mode to recompile the files on change.
+    yarn install
+    yarn dev      # rebuilds on save
+    yarn package  # builds the distributable .tgz
